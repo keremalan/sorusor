@@ -185,3 +185,11 @@ a:hover {
     border: 2px solid black;
     cursor: grab;
 }
+
+@media only screen and (max-width: 414px) {
+    main {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+}

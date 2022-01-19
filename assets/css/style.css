@@ -144,6 +144,26 @@ main {
     color: black;
 }
 
+.rc-context-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.9vh;
+    text-align: center;
+}
+
+.rc-context-bottom > a {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.226);
+}
+
+.rc-context-bottom > a:hover {
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.rc-context-bottom > a:first-child {
+    margin-bottom: 0.4vh;
+}
+
 .mb {
     margin-bottom: 2vh;
 }
@@ -184,6 +204,35 @@ a:hover {
     color: black;
     border: 2px solid black;
     cursor: grab;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.h-brand {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.h-brand > img {
+    width: 100%;
+    max-width: 2.8vh;
+    margin-right: 0.8vw;
+}
+
+.h-brand > h3 {
+    font-size: 1.4rem;
+}
+
+.h-nav > a {
+    color: black;
 }
 
 @media only screen and (max-width: 414px) {
